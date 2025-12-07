@@ -1,4 +1,4 @@
-import day06.{parse, part1, part2}
+import day06.{parse, part1}
 import gleam/string
 import gleeunit
 
@@ -19,13 +19,4 @@ pub fn part1_test() {
 
   let assert Ok(#(number_lines, operator_line)) = parse(lines)
   assert part1(number_lines, operator_line) == 4_277_556
-}
-
-pub fn part2_test() {
-  let input =
-    input_str
-    |> string.split("\n")
-  // let assert Ok(spins) = parse_input(input)
-  // assert part2(spins) == 6
-  assert False
 }

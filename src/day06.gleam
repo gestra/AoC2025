@@ -24,9 +24,9 @@ pub fn part1(number_lines: List(List(Int)), operator_line: List(String)) -> Int 
   solve_problems(number_lines, operator_line, [])
 }
 
-pub fn part2() -> Int {
-  todo
-}
+// pub fn part2() -> Int {
+//   todo
+// }
 
 pub fn parse(
   lines: List(String),
